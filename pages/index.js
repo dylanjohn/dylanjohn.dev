@@ -3,8 +3,8 @@ import Layout from '../components/Layout'
 export default function Home() {
   return (
     <Layout>
-       <div className="flex min-h-screen flex-col items-center justify-center py-2">
-        <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
+       <div className="flex flex-col items-center py-2">
+        <main className="flex w-full flex-1 flex-col items-center px-20 text-center">
           <h1 className="text-6xl font-bold">
             Welcome to{' '}
             <a className="text-blue-600" href="https://nextjs.org">
